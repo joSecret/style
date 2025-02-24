@@ -2,6 +2,7 @@ Post CSS config:
 
 ### package.json
 
+```
 "path": "^0.12.7",
 "postcss": "^8.4.47",
 "postcss-advanced-variables": "^4.0.0",
@@ -18,8 +19,11 @@ Post CSS config:
 "postcss-replace-string": "^1.0.0",
 "postcss-simple-vars": "^7.0.1",
 "postcss-url": "^10.1.3",
+```
 
 drupal:
+
+```
 "chalk": "^4.1.2",
 "chokidar": "^3.5.3",
 "cssnano": "^5.1.14",
@@ -43,9 +47,11 @@ drupal:
 "postcss-pxtorem": "^6.0.0",
 "postcss-replace-string": "^1.0.0",
 "postcss-url": "^10.1.3",
+```
 
 ### postcss.config.cjs
 
+```
 const postcssAdvancedVar = require('postcss-advanced-variables');
 const postcssCustomMediaGenerator = require('postcss-custom-media-generator');
 const postcssNested = require('postcss-nested');
@@ -127,3 +133,4 @@ postcssAdvancedVar,
 
 ],
 };
+```
