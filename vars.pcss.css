@@ -2,8 +2,7 @@
   /* Font */
   --ff: 'Inter', sans-serif;
   /* --ff-mono: 'AeonikMono', monospace; */
-  --ff-code: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
-    'Courier New', monospace;
+  --ff-code: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
   --fs-root: 1rem;
   --fs-base: 1rem;
   --fs-sm: 16px;
@@ -30,8 +29,16 @@
 
   /* Link */
   --def--link_c: var(--c-primary);
-  --def--link_c_h: hsl(from var(--def--link_c) h s calc(l - 10));
-  --def--link_c_a: hsl(from var(--def--link_c) h s calc(l - 20));
+  --def--link_c_h: color-mix(
+    in oklab,
+    var(--def--link_c),
+    black 10%
+  ); /* hsl(from var(--def--link_c) h s calc(l - 10)) */
+  --def--link_c_a: color-mix(
+    in oklab,
+    var(--def--link_c),
+    black 20%
+  ); /* hsl(from var(--def--link_c) h s calc(l - 20))*/
   --def--link_d: none;
   --def--link_d_h: underline;
 
