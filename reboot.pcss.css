@@ -27,6 +27,11 @@
     background-color: var(--body-bg);
   }
 
+  main,
+  .is-container {
+    container-type: inline-size;
+  }
+
   hr {
     margin: var(--hr-my, 0px);
     color: var(--hr-color);
@@ -382,5 +387,9 @@
   :where(dd) {
     margin-bottom: 0.5rem;
     margin-left: 0;
+  }
+
+  body {
+    scrollbar-gutter: stable;
   }
 }

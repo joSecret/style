@@ -2,7 +2,8 @@
   /* Font */
   --ff: 'Inter', sans-serif;
   /* --ff-mono: 'AeonikMono', monospace; */
-  --ff-code: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+  --ff-code: SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono',
+    'Courier New', monospace;
   --fs-root: 1rem;
   --fs-base: 1rem;
   --fs-sm: 16px;
@@ -137,6 +138,12 @@
   --c-dark: var(--c-gray-900);
 
   --c-light-blue: #f2f6ff;
+
+  /* wrapper */
+  --w_mw: 1200px;
+  --w-sm_mw: 760px;
+  --w-lg_mw: 1440px;
+  --w_md_gap: 0px;
 
   /* blockquote */
   --_blockquote-fs: var(--blockquote-fs, 20px);
