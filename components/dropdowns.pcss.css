@@ -14,7 +14,7 @@
   --dropdown-py: 0.5rem;
   --dropdown-s: 0.125rem;
   --dropdown-fs: var(--fs-base);
-  --dropdown-c: var(--body-c);
+  --dropdown-c: var(--body_c);
   --dropdown-bg: #fff;
   --dropdown-border-color: var(--bc-translucent);
   --dropdown-br: var(--br);
@@ -23,7 +23,7 @@
   --dropdown-divider-bg: var(--bc-translucent);
   --dropdown-divider-margin-y: 0.5rem;
   --dropdown-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  --dropdown-link-color: var(--body-c);
+  --dropdown-link-color: var(--body_c);
   --dropdown-link-hover-color: #1e2125;
   --dropdown-link-hover-bg: #e9ecef;
   --dropdown-link-active-color: #fff;
@@ -194,7 +194,7 @@
 .dropdown-toggle {
   --_nav-link_display: inline-flex;
   --_drop-toggle_gap: 6px;
-  --_drop-toggle_bg: var(--body-c);
+  --_drop-toggle_bg: var(--body_c);
   --_drop-toggle_s: 16px;
   --_drop-toggle_img: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='currentColor' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708'/%3E%3C/svg%3E");
   white-space: nowrap;

@@ -23,8 +23,8 @@
     font-size: var(--body-fs, var(--fs-base));
     font-weight: var(--body-fw, var(--fw-normal));
     line-height: var(--body-lh, var(--lh));
-    color: var(--body-c);
-    background-color: var(--body-bg);
+    color: var(--body_c);
+    background-color: var(--body_bg);
   }
 
   main,

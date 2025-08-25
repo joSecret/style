@@ -4,7 +4,7 @@
 @layer accordion {
   .accordion {
     --accordion-c: var(--c-primary-dark);
-    --accordion-bg: var(--body-bg);
+    --accordion-bg: var(--body_bg);
     --accordion-transition: color 0.15s ease-in-out,
       background-color 0.15s ease-in-out, border-color 0.15s ease-in-out,
       box-shadow 0.15s ease-in-out;

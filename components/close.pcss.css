@@ -1,8 +1,8 @@
 .btn-close {
   --btn-c--s: 14px;
   --btn-c--p: 5px;
-  --btn-c--c: var(--body-c);
-  --btn-c--bg: var(--body-c);
+  --btn-c--c: var(--body_c);
+  --btn-c--bg: var(--body_c);
   --btn-c--bg--s: 14px;
   --btn-c--opacity: 1;
   --btn-c--br: var(--border-radius);

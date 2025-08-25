@@ -1,0 +1,157 @@
+:root {
+  --palett-light: #fff;
+  --palett-dark: #000;
+  /* Primary */
+  --c-accent--90: color-mix(in srgb, var(--c-accent), var(--palett-light) 90%);
+  --c-accent--80: color-mix(in srgb, var(--c-accent), var(--palett-light) 80%);
+  --c-accent--70: color-mix(in srgb, var(--c-accent), var(--palett-light) 70%);
+  --c-accent--60: color-mix(in srgb, var(--c-accent), var(--palett-light) 60%);
+  --c-accent--50: color-mix(in srgb, var(--c-accent), var(--palett-light) 50%);
+  --c-accent--40: color-mix(in srgb, var(--c-accent), var(--palett-light) 40%);
+  --c-accent--30: color-mix(in srgb, var(--c-accent), var(--palett-light) 30%);
+  --c-accent--20: color-mix(in srgb, var(--c-accent), var(--palett-light) 20%);
+  --c-accent--10: color-mix(in srgb, var(--c-accent), var(--palett-light) 10%);
+
+  --c-accent-10: color-mix(in srgb, var(--c-accent), var(--palett-dark) 10%);
+  --c-accent-20: color-mix(in srgb, var(--c-accent), var(--palett-dark) 20%);
+  --c-accent-30: color-mix(in srgb, var(--c-accent), var(--palett-dark) 30%);
+  --c-accent-40: color-mix(in srgb, var(--c-accent), var(--palett-dark) 40%);
+  --c-accent-50: color-mix(in srgb, var(--c-accent), var(--palett-dark) 50%);
+  --c-accent-60: color-mix(in srgb, var(--c-accent), var(--palett-dark) 60%);
+  --c-accent-70: color-mix(in srgb, var(--c-accent), var(--palett-dark) 70%);
+  --c-accent-80: color-mix(in srgb, var(--c-accent), var(--palett-dark) 80%);
+  --c-accent-90: color-mix(in srgb, var(--c-accent), var(--palett-dark) 90%);
+
+  /* Primary */
+  --c-primary--90: color-mix(in srgb, var(--c-primary), var(--palett-light) 90%);
+  --c-primary--80: color-mix(in srgb, var(--c-primary), var(--palett-light) 80%);
+  --c-primary--70: color-mix(in srgb, var(--c-primary), var(--palett-light) 70%);
+  --c-primary--60: color-mix(in srgb, var(--c-primary), var(--palett-light) 60%);
+  --c-primary--50: color-mix(in srgb, var(--c-primary), var(--palett-light) 50%);
+  --c-primary--40: color-mix(in srgb, var(--c-primary), var(--palett-light) 40%);
+  --c-primary--30: color-mix(in srgb, var(--c-primary), var(--palett-light) 30%);
+  --c-primary--20: color-mix(in srgb, var(--c-primary), var(--palett-light) 20%);
+  --c-primary--10: color-mix(in srgb, var(--c-primary), var(--palett-light) 10%);
+
+  --c-primary-10: color-mix(in srgb, var(--c-primary), var(--palett-dark) 10%);
+  --c-primary-20: color-mix(in srgb, var(--c-primary), var(--palett-dark) 20%);
+  --c-primary-30: color-mix(in srgb, var(--c-primary), var(--palett-dark) 30%);
+  --c-primary-40: color-mix(in srgb, var(--c-primary), var(--palett-dark) 40%);
+  --c-primary-50: color-mix(in srgb, var(--c-primary), var(--palett-dark) 50%);
+  --c-primary-60: color-mix(in srgb, var(--c-primary), var(--palett-dark) 60%);
+  --c-primary-70: color-mix(in srgb, var(--c-primary), var(--palett-dark) 70%);
+  --c-primary-80: color-mix(in srgb, var(--c-primary), var(--palett-dark) 80%);
+  --c-primary-90: color-mix(in srgb, var(--c-primary), var(--palett-dark) 90%);
+
+  /* Secondary */
+  --c-secondary--90: color-mix(in srgb, var(--c-secondary), var(--palett-light) 90%);
+  --c-secondary--80: color-mix(in srgb, var(--c-secondary), var(--palett-light) 80%);
+  --c-secondary--70: color-mix(in srgb, var(--c-secondary), var(--palett-light) 70%);
+  --c-secondary--60: color-mix(in srgb, var(--c-secondary), var(--palett-light) 60%);
+  --c-secondary--50: color-mix(in srgb, var(--c-secondary), var(--palett-light) 50%);
+  --c-secondary--40: color-mix(in srgb, var(--c-secondary), var(--palett-light) 40%);
+  --c-secondary--30: color-mix(in srgb, var(--c-secondary), var(--palett-light) 30%);
+  --c-secondary--20: color-mix(in srgb, var(--c-secondary), var(--palett-light) 20%);
+  --c-secondary--10: color-mix(in srgb, var(--c-secondary), var(--palett-light) 10%);
+
+  --c-secondary-10: color-mix(in srgb, var(--c-secondary), var(--palett-dark) 10%);
+  --c-secondary-20: color-mix(in srgb, var(--c-secondary), var(--palett-dark) 20%);
+  --c-secondary-30: color-mix(in srgb, var(--c-secondary), var(--palett-dark) 30%);
+  --c-secondary-40: color-mix(in srgb, var(--c-secondary), var(--palett-dark) 40%);
+  --c-secondary-50: color-mix(in srgb, var(--c-secondary), var(--palett-dark) 50%);
+  --c-secondary-60: color-mix(in srgb, var(--c-secondary), var(--palett-dark) 60%);
+  --c-secondary-70: color-mix(in srgb, var(--c-secondary), var(--palett-dark) 70%);
+  --c-secondary-80: color-mix(in srgb, var(--c-secondary), var(--palett-dark) 80%);
+  --c-secondary-90: color-mix(in srgb, var(--c-secondary), var(--palett-dark) 90%);
+
+  /* Tertiary */
+  --c-tertiary--90: color-mix(in srgb, var(--c-tertiary), var(--palett-light) 90%);
+  --c-tertiary--80: color-mix(in srgb, var(--c-tertiary), var(--palett-light) 80%);
+  --c-tertiary--70: color-mix(in srgb, var(--c-tertiary), var(--palett-light) 70%);
+  --c-tertiary--60: color-mix(in srgb, var(--c-tertiary), var(--palett-light) 60%);
+  --c-tertiary--50: color-mix(in srgb, var(--c-tertiary), var(--palett-light) 50%);
+  --c-tertiary--40: color-mix(in srgb, var(--c-tertiary), var(--palett-light) 40%);
+  --c-tertiary--30: color-mix(in srgb, var(--c-tertiary), var(--palett-light) 30%);
+  --c-tertiary--20: color-mix(in srgb, var(--c-tertiary), var(--palett-light) 20%);
+  --c-tertiary--10: color-mix(in srgb, var(--c-tertiary), var(--palett-light) 10%);
+
+  --c-tertiary-10: color-mix(in srgb, var(--c-tertiary), var(--palett-dark) 10%);
+  --c-tertiary-20: color-mix(in srgb, var(--c-tertiary), var(--palett-dark) 20%);
+  --c-tertiary-30: color-mix(in srgb, var(--c-tertiary), var(--palett-dark) 30%);
+  --c-tertiary-40: color-mix(in srgb, var(--c-tertiary), var(--palett-dark) 40%);
+  --c-tertiary-50: color-mix(in srgb, var(--c-tertiary), var(--palett-dark) 50%);
+  --c-tertiary-60: color-mix(in srgb, var(--c-tertiary), var(--palett-dark) 60%);
+  --c-tertiary-70: color-mix(in srgb, var(--c-tertiary), var(--palett-dark) 70%);
+  --c-tertiary-80: color-mix(in srgb, var(--c-tertiary), var(--palett-dark) 80%);
+  --c-tertiary-90: color-mix(in srgb, var(--c-tertiary), var(--palett-dark) 90%);
+
+  /* Gray */
+  --c-gray--90: color-mix(in srgb, var(--c-gray), var(--palett-light) 90%);
+  --c-gray--80: color-mix(in srgb, var(--c-gray), var(--palett-light) 80%);
+  --c-gray--70: color-mix(in srgb, var(--c-gray), var(--palett-light) 70%);
+  --c-gray--60: color-mix(in srgb, var(--c-gray), var(--palett-light) 60%);
+  --c-gray--50: color-mix(in srgb, var(--c-gray), var(--palett-light) 50%);
+  --c-gray--40: color-mix(in srgb, var(--c-gray), var(--palett-light) 40%);
+  --c-gray--30: color-mix(in srgb, var(--c-gray), var(--palett-light) 30%);
+  --c-gray--20: color-mix(in srgb, var(--c-gray), var(--palett-light) 20%);
+  --c-gray--10: color-mix(in srgb, var(--c-gray), var(--palett-light) 10%);
+
+  --c-gray-10: color-mix(in srgb, var(--c-gray), var(--palett-dark) 10%);
+  --c-gray-20: color-mix(in srgb, var(--c-gray), var(--palett-dark) 20%);
+  --c-gray-30: color-mix(in srgb, var(--c-gray), var(--palett-dark) 30%);
+  --c-gray-40: color-mix(in srgb, var(--c-gray), var(--palett-dark) 40%);
+  --c-gray-50: color-mix(in srgb, var(--c-gray), var(--palett-dark) 50%);
+  --c-gray-60: color-mix(in srgb, var(--c-gray), var(--palett-dark) 60%);
+  --c-gray-70: color-mix(in srgb, var(--c-gray), var(--palett-dark) 70%);
+  --c-gray-80: color-mix(in srgb, var(--c-gray), var(--palett-dark) 80%);
+  --c-gray-90: color-mix(in srgb, var(--c-gray), var(--palett-dark) 90%);
+
+  /* Neutral */
+  --c-neutral--90: color-mix(in srgb, var(--c-neutral), var(--palett-light) 90%);
+  --c-neutral--80: color-mix(in srgb, var(--c-neutral), var(--palett-light) 80%);
+  --c-neutral--70: color-mix(in srgb, var(--c-neutral), var(--palett-light) 70%);
+  --c-neutral--60: color-mix(in srgb, var(--c-neutral), var(--palett-light) 60%);
+  --c-neutral--50: color-mix(in srgb, var(--c-neutral), var(--palett-light) 50%);
+  --c-neutral--40: color-mix(in srgb, var(--c-neutral), var(--palett-light) 40%);
+  --c-neutral--30: color-mix(in srgb, var(--c-neutral), var(--palett-light) 30%);
+  --c-neutral--20: color-mix(in srgb, var(--c-neutral), var(--palett-light) 20%);
+  --c-neutral--10: color-mix(in srgb, var(--c-neutral), var(--palett-light) 10%);
+
+  --c-neutral-10: color-mix(in srgb, var(--c-neutral), var(--palett-dark) 10%);
+  --c-neutral-20: color-mix(in srgb, var(--c-neutral), var(--palett-dark) 20%);
+  --c-neutral-30: color-mix(in srgb, var(--c-neutral), var(--palett-dark) 30%);
+  --c-neutral-40: color-mix(in srgb, var(--c-neutral), var(--palett-dark) 40%);
+  --c-neutral-50: color-mix(in srgb, var(--c-neutral), var(--palett-dark) 50%);
+  --c-neutral-60: color-mix(in srgb, var(--c-neutral), var(--palett-dark) 60%);
+  --c-neutral-70: color-mix(in srgb, var(--c-neutral), var(--palett-dark) 70%);
+  --c-neutral-80: color-mix(in srgb, var(--c-neutral), var(--palett-dark) 80%);
+  --c-neutral-90: color-mix(in srgb, var(--c-neutral), var(--palett-dark) 90%);
+
+  /* Danger */
+  --c-danger--90: color-mix(in srgb, var(--c-danger), var(--palett-light) 90%);
+  --c-danger--80: color-mix(in srgb, var(--c-danger), var(--palett-light) 80%);
+  --c-danger--70: color-mix(in srgb, var(--c-danger), var(--palett-light) 70%);
+  --c-danger--60: color-mix(in srgb, var(--c-danger), var(--palett-light) 60%);
+  --c-danger--50: color-mix(in srgb, var(--c-danger), var(--palett-light) 50%);
+  --c-danger--40: color-mix(in srgb, var(--c-danger), var(--palett-light) 40%);
+  --c-danger--30: color-mix(in srgb, var(--c-danger), var(--palett-light) 30%);
+  --c-danger--20: color-mix(in srgb, var(--c-danger), var(--palett-light) 20%);
+  --c-danger--10: color-mix(in srgb, var(--c-danger), var(--palett-light) 10%);
+
+  --c-danger-10: color-mix(in srgb, var(--c-danger), var(--palett-dark) 10%);
+  --c-danger-20: color-mix(in srgb, var(--c-danger), var(--palett-dark) 20%);
+  --c-danger-30: color-mix(in srgb, var(--c-danger), var(--palett-dark) 30%);
+  --c-danger-40: color-mix(in srgb, var(--c-danger), var(--palett-dark) 40%);
+  --c-danger-50: color-mix(in srgb, var(--c-danger), var(--palett-dark) 50%);
+  --c-danger-60: color-mix(in srgb, var(--c-danger), var(--palett-dark) 60%);
+  --c-danger-70: color-mix(in srgb, var(--c-danger), var(--palett-dark) 70%);
+  --c-danger-80: color-mix(in srgb, var(--c-danger), var(--palett-dark) 80%);
+  --c-danger-90: color-mix(in srgb, var(--c-danger), var(--palett-dark) 90%);
+
+  @media (prefers-color-scheme: dark) {
+    --palett-light: #000;
+    --palett-dark: #fff;
+  }
+}
+
+

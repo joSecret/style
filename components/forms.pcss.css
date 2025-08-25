@@ -3,8 +3,8 @@
   --input-px: 20px;
   --input-fs: var(--fs-base);
   --input-fw: var(--fw-normal);
-  --input-c: var(--body-c);
-  --input-bg: var(--body-bg);
+  --input-c: var(--body_c);
+  --input-bg: var(--body_bg);
   --input-bc: rgba(0, 0, 0, 0.1);
   --input-bc_h: #646988;
   --input-bw: 1.5px;
