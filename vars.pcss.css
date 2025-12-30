@@ -49,9 +49,9 @@
     --body_bg: var(--palett-light);
 
     /* Link */
-    --link_c: var(--c-primary);
-    --link_c_h: hsl(from var(--link_c) h s calc(l - 10));
-    --link_c_a: hsl(from var(--link_c) h s calc(l - 20));
+    --link_c: var(--c-primary-500);
+    --link_c_h: var(--c-primary-700);
+    --link_c_a: var(--c-primary-900);
     --link_d: none;
     --link_d_h: underline;
 

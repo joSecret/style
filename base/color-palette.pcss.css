@@ -1,0 +1,130 @@
+:root {
+  --palett-light: white;
+  --palett-dark: black;
+
+  /* Primary */
+  --c-primary-950: color-mix(in oklch, var(--c-primary), var(--palett-dark) 90%);
+  --c-primary-900: color-mix(in oklch, var(--c-primary), var(--palett-dark) 80%);
+  --c-primary-800: color-mix(in oklch, var(--c-primary), var(--palett-dark) 60%);
+  --c-primary-700: color-mix(in oklch, var(--c-primary), var(--palett-dark) 40%);
+  --c-primary-600: color-mix(in oklch, var(--c-primary), var(--palett-dark) 20%);
+  --c-primary-500: var(--c-primary);
+  --c-primary-400: color-mix(in oklch, var(--c-primary), var(--palett-light) 20%);
+  --c-primary-300: color-mix(in oklch, var(--c-primary), var(--palett-light) 40%);
+  --c-primary-200: color-mix(in oklch, var(--c-primary), var(--palett-light) 60%);
+  --c-primary-100: color-mix(in oklch, var(--c-primary), var(--palett-light) 80%);
+
+  /* Accent */
+  --c-accent-950: color-mix(in oklch, var(--c-accent), var(--palett-dark) 90%);
+  --c-accent-900: color-mix(in oklch, var(--c-accent), var(--palett-dark) 80%);
+  --c-accent-800: color-mix(in oklch, var(--c-accent), var(--palett-dark) 60%);
+  --c-accent-700: color-mix(in oklch, var(--c-accent), var(--palett-dark) 40%);
+  --c-accent-600: color-mix(in oklch, var(--c-accent), var(--palett-dark) 20%);
+  --c-accent-500: var(--c-accent);
+  --c-accent-400: color-mix(in oklch, var(--c-accent), var(--palett-light) 20%);
+  --c-accent-300: color-mix(in oklch, var(--c-accent), var(--palett-light) 40%);
+  --c-accent-200: color-mix(in oklch, var(--c-accent), var(--palett-light) 60%);
+  --c-accent-100: color-mix(in oklch, var(--c-accent), var(--palett-light) 80%);
+
+  /* Secondary */
+  --c-secondary-950: color-mix(in oklch, var(--c-secondary), var(--palett-dark) 90%);
+  --c-secondary-900: color-mix(in oklch, var(--c-secondary), var(--palett-dark) 80%);
+  --c-secondary-800: color-mix(in oklch, var(--c-secondary), var(--palett-dark) 60%);
+  --c-secondary-700: color-mix(in oklch, var(--c-secondary), var(--palett-dark) 40%);
+  --c-secondary-600: color-mix(in oklch, var(--c-secondary), var(--palett-dark) 20%);
+  --c-secondary-500: var(--c-secondary);
+  --c-secondary-400: color-mix(in oklch, var(--c-secondary), var(--palett-light) 20%);
+  --c-secondary-300: color-mix(in oklch, var(--c-secondary), var(--palett-light) 40%);
+  --c-secondary-200: color-mix(in oklch, var(--c-secondary), var(--palett-light) 60%);
+  --c-secondary-100: color-mix(in oklch, var(--c-secondary), var(--palett-light) 80%);
+
+  /* Tertiary */
+  --c-tertiary-950: color-mix(in oklch, var(--c-tertiary), var(--palett-dark) 90%);
+  --c-tertiary-900: color-mix(in oklch, var(--c-tertiary), var(--palett-dark) 80%);
+  --c-tertiary-800: color-mix(in oklch, var(--c-tertiary), var(--palett-dark) 60%);
+  --c-tertiary-700: color-mix(in oklch, var(--c-tertiary), var(--palett-dark) 40%);
+  --c-tertiary-600: color-mix(in oklch, var(--c-tertiary), var(--palett-dark) 20%);
+  --c-tertiary-500: var(--c-tertiary);
+  --c-tertiary-400: color-mix(in oklch, var(--c-tertiary), var(--palett-light) 20%);
+  --c-tertiary-300: color-mix(in oklch, var(--c-tertiary), var(--palett-light) 40%);
+  --c-tertiary-200: color-mix(in oklch, var(--c-tertiary), var(--palett-light) 60%);
+  --c-tertiary-100: color-mix(in oklch, var(--c-tertiary), var(--palett-light) 80%);
+
+  /* Neutral */
+  --c-neutral-950: color-mix(in oklch, var(--c-neutral), var(--palett-dark) 90%);
+  --c-neutral-900: color-mix(in oklch, var(--c-neutral), var(--palett-dark) 80%);
+  --c-neutral-800: color-mix(in oklch, var(--c-neutral), var(--palett-dark) 60%);
+  --c-neutral-700: color-mix(in oklch, var(--c-neutral), var(--palett-dark) 40%);
+  --c-neutral-600: color-mix(in oklch, var(--c-neutral), var(--palett-dark) 20%);
+  --c-neutral-500: var(--c-neutral);
+  --c-neutral-400: color-mix(in oklch, var(--c-neutral), var(--palett-light) 20%);
+  --c-neutral-300: color-mix(in oklch, var(--c-neutral), var(--palett-light) 40%);
+  --c-neutral-200: color-mix(in oklch, var(--c-neutral), var(--palett-light) 60%);
+  --c-neutral-100: color-mix(in oklch, var(--c-neutral), var(--palett-light) 80%);
+
+  /* Gray */
+  --c-gray-950: color-mix(in oklch, var(--c-gray), var(--palett-dark) 90%);
+  --c-gray-900: color-mix(in oklch, var(--c-gray), var(--palett-dark) 80%);
+  --c-gray-800: color-mix(in oklch, var(--c-gray), var(--palett-dark) 60%);
+  --c-gray-700: color-mix(in oklch, var(--c-gray), var(--palett-dark) 40%);
+  --c-gray-600: color-mix(in oklch, var(--c-gray), var(--palett-dark) 20%);
+  --c-gray-500: var(--c-gray);
+  --c-gray-400: color-mix(in oklch, var(--c-gray), var(--palett-light) 20%);
+  --c-gray-300: color-mix(in oklch, var(--c-gray), var(--palett-light) 40%);
+  --c-gray-250: color-mix(in oklch, var(--c-gray), var(--palett-light) 50%);
+  --c-gray-200: color-mix(in oklch, var(--c-gray), var(--palett-light) 60%);
+  --c-gray-100: color-mix(in oklch, var(--c-gray), var(--palett-light) 80%);
+
+  /* Info */
+  --c-info-950: color-mix(in oklch, var(--c-info), var(--palett-dark) 90%);
+  --c-info-900: color-mix(in oklch, var(--c-info), var(--palett-dark) 80%);
+  --c-info-800: color-mix(in oklch, var(--c-info), var(--palett-dark) 60%);
+  --c-info-700: color-mix(in oklch, var(--c-info), var(--palett-dark) 40%);
+  --c-info-600: color-mix(in oklch, var(--c-info), var(--palett-dark) 20%);
+  --c-info-500: var(--c-info);
+  --c-info-400: color-mix(in oklch, var(--c-info), var(--palett-light) 20%);
+  --c-info-300: color-mix(in oklch, var(--c-info), var(--palett-light) 40%);
+  --c-info-200: color-mix(in oklch, var(--c-info), var(--palett-light) 60%);
+  --c-info-100: color-mix(in oklch, var(--c-info), var(--palett-light) 80%);
+
+  /* Success */
+  --c-success-950: color-mix(in oklch, var(--c-success), var(--palett-dark) 90%);
+  --c-success-900: color-mix(in oklch, var(--c-success), var(--palett-dark) 80%);
+  --c-success-800: color-mix(in oklch, var(--c-success), var(--palett-dark) 60%);
+  --c-success-700: color-mix(in oklch, var(--c-success), var(--palett-dark) 40%);
+  --c-success-600: color-mix(in oklch, var(--c-success), var(--palett-dark) 20%);
+  --c-success-500: var(--c-success);
+  --c-success-400: color-mix(in oklch, var(--c-success), var(--palett-light) 20%);
+  --c-success-300: color-mix(in oklch, var(--c-success), var(--palett-light) 40%);
+  --c-success-200: color-mix(in oklch, var(--c-success), var(--palett-light) 60%);
+  --c-success-100: color-mix(in oklch, var(--c-success), var(--palett-light) 80%);
+
+  /* Warning */
+  --c-warning-950: color-mix(in oklch, var(--c-warning), var(--palett-dark) 90%);
+  --c-warning-900: color-mix(in oklch, var(--c-warning), var(--palett-dark) 80%);
+  --c-warning-800: color-mix(in oklch, var(--c-warning), var(--palett-dark) 60%);
+  --c-warning-700: color-mix(in oklch, var(--c-warning), var(--palett-dark) 40%);
+  --c-warning-600: color-mix(in oklch, var(--c-warning), var(--palett-dark) 20%);
+  --c-warning-500: var(--c-warning);
+  --c-warning-400: color-mix(in oklch, var(--c-warning), var(--palett-light) 20%);
+  --c-warning-300: color-mix(in oklch, var(--c-warning), var(--palett-light) 40%);
+  --c-warning-200: color-mix(in oklch, var(--c-warning), var(--palett-light) 60%);
+  --c-warning-100: color-mix(in oklch, var(--c-warning), var(--palett-light) 80%);
+
+  /* Danger */
+  --c-danger-950: color-mix(in oklch, var(--c-danger), var(--palett-dark) 90%);
+  --c-danger-900: color-mix(in oklch, var(--c-danger), var(--palett-dark) 80%);
+  --c-danger-800: color-mix(in oklch, var(--c-danger), var(--palett-dark) 60%);
+  --c-danger-700: color-mix(in oklch, var(--c-danger), var(--palett-dark) 40%);
+  --c-danger-600: color-mix(in oklch, var(--c-danger), var(--palett-dark) 20%);
+  --c-danger-500: var(--c-danger);
+  --c-danger-400: color-mix(in oklch, var(--c-danger), var(--palett-light) 20%);
+  --c-danger-300: color-mix(in oklch, var(--c-danger), var(--palett-light) 40%);
+  --c-danger-200: color-mix(in oklch, var(--c-danger), var(--palett-light) 60%);
+  --c-danger-100: color-mix(in oklch, var(--c-danger), var(--palett-light) 80%);
+
+  @media (prefers-color-scheme: dark) {
+    --palett-light: black;
+    --palett-dark: white;
+  }
+}
