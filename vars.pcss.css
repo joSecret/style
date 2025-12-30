@@ -143,6 +143,28 @@
 
     --drupal_pbs: var(--drupal-displace-offset-top, 0px);
 
-    --container_m-w: min(1200px, calc(100% - 24px));
+    --container-py: 30Px;
+
+    --container-mw: calc(100% - var(--gutter) * 2);
+
+    @media (--md) {
+      --container-mw: 720Px;
+    }
+
+    @media (--lg) {
+      --container-mw: 950Px;
+    }
+
+    @media (--xl) {
+      --container-mw: 1140Px;
+    }
+
+    @media (--xxl) {
+      --container-mw: 1320Px;
+    }
+
+    @media (--xxxl) {
+      --container-mw: 1440Px;
+    }
   }
 }
